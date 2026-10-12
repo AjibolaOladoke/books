@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![books](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![books](images/preview.png)](https://github.com/Swift-Tech-Co/books)
 
 ## Frappe Books
 
@@ -68,8 +68,8 @@ brew install --cask frappe-books
 
 ### Via Flatpak (Linux)
 
-<a href='https://www.swifttechco.com'>
-    <img width='120' alt='Get it on Flathub' src='https://www.swifttechco.com'/>
+<a href='https://github.com/Swift-Tech-Co/books'>
+    <img width='120' alt='Get it on Flathub' src='https://github.com/Swift-Tech-Co/books'/>
 </a>
 
 ## Development Setup
@@ -87,8 +87,6 @@ Once you are through the Pre-requisites, you can run the following commands to
 setup Frappe Books for development and building:
 
 ```bash
-
-
 
 ## Want to Just Try Out or Contribute?
 
@@ -143,13 +141,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/books
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [programthink/books](https://github.com/programthink/books) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
