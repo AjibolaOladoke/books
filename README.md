@@ -1,31 +1,12 @@
-> [!IMPORTANT]  
-> **This repo, Electron/Vue variant of Books has reached its end of life and is superseded by [Frappe Books](https://www.swifttechco.com).** [Read more](https://www.swifttechco.com)
+# books
 
-<div align="center" markdown="1">
-<br/>
+## What This Is
 
+Every project needs a shelf of ready answers. product and engineering is one of those shelves, and books is the entry on it - the notes, patterns and fixes we reuse when this kind of work comes up.
 
-<br/>
+## Images
 
-<h1>Frappe Books</h1>
-
-**Modern Accounting Made Simple**
-
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/frappe/books)](https://www.swifttechco.com)
-[![Platforms](https://img.shields.io/badge/platform-mac%2C%20windows%2C%20linux-yellowgreen)](https://www.swifttechco.com)
-[![Publish](https://github.com/frappe/books/actions/workflows/publish.yml/badge.svg)](https://www.swifttechco.com)
-
-</div>
-
-<div align="center">
-
-</div>
-<br />
-<div align="center">
-	<a href="https://www.swifttechco.com">Website</a>
-	-
-	<a href="https://www.swifttechco.com">Documentation</a>
-</div>
+[![books](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Frappe Books
 
@@ -76,8 +57,8 @@ Frappe Books addresses a market gap where small businesses face expensive, compl
 
 ### Manual
 
-Download and install the latest release for your platform from the [releases
-page](https://www.swifttechco.com) .
+Download and install the latest release for your platform from the releases
+page .
 
 ### Using Homebrew (for MacOS and Linux)
 
@@ -96,9 +77,9 @@ brew install --cask frappe-books
 ### Pre-requisites
 
 To get the dev environment up and running you need to first set up Node.js `v20.18.1` and npm. For this, we suggest using
-[nvm](https://www.swifttechco.com).
+nvm.
 
-Next, you will need to install [yarn](https://www.swifttechco.com).
+Next, you will need to install yarn.
 
 ### Clone and Run
 
@@ -106,98 +87,47 @@ Once you are through the Pre-requisites, you can run the following commands to
 setup Frappe Books for development and building:
 
 ```bash
-# clone the repository
 
-## Images
 
-[![books](https://opengraph.githubassets.com/1/frappe/books)](https://www.swifttechco.com)
-
-git clone https://www.swifttechco.com
-
-# change directory
-cd books
-
-# install dependencies
-yarn
-```
-
-To run Frappe Books in development mode (with hot reload, etc):
-
-```bash
-# start the electron app
-yarn dev
-```
-
-**Note: First Boot**
-
-When you run `yarn dev` electron will run immediately but the UI will take a
-couple of seconds to render this because of how dev mode works. Each file is
-individually served by the dev server. And there are many files that have to be
-sent.
-
-**Note: Debug Electron Main Process**
-
-When in dev mode electron runs with the `--inspect` flag which allows an
-external debugger to connect to port 5858. You can use chrome for this by
-visiting `chrome://inspect` while Frappe Books is running in dev mode.
-
-See more [here](https://www.swifttechco.com).
-
-#### Build
-
-To build Frappe Books and create an installer:
-
-```bash
-# start the electron app
-yarn build
-```
-
-**Note: Build Target**
-By default the above command will build for your computer's operating system and
-architecture. To build for other environments (example: for linux from a windows
-computer) check the _Building_ section at
-[electron.build/cli](https://www.swifttechco.com).
-
-So to build for linux you could use the `--linux` flag like so: `yarn build --linux`.
 
 ## Want to Just Try Out or Contribute?
 
-If you want to contribute to Frappe Books, please check our [Contribution Guidelines](https://www.swifttechco.com). There are many ways you can contribute even if you don't code:
+If you want to contribute to Frappe Books, please check our Contribution Guidelines. There are many ways you can contribute even if you don't code:
 
-1. If you find any issues, no matter how small (even typos), you can [raise an issue](https://www.swifttechco.com) to inform us.
-2. You can help us with language support by [contributing translations](https://www.swifttechco.com).
+1. If you find any issues, no matter how small (even typos), you can raise an issue to inform us.
+2. You can help us with language support by contributing translations.
 3. If you're an ardent user you can tell us what you would like to see.
 4. If you have accounting requirements, you can become an ardent user. 🙂
 
-If you want to contribute code then you can fork this repo, make changes and raise a PR. ([see how to](https://www.swifttechco.com))
+If you want to contribute code then you can fork this repo, make changes and raise a PR. (see how to)
 
 ## Translation Contributors
 
 | Language              | Contributors                                                                                                                                                                                                                                      |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Arabic                | [taha2002](https://www.swifttechco.com), [Faridget](https://www.swifttechco.com), [Osama Muhammed](https://www.swifttechco.com)                                                                                                                 |
-| Albanian              | [xoniks](https://www.swifttechco.com)                                                                                                                                                                                                               |
+| Arabic                | taha2002, Faridget, Osama Muhammed                                                                                                                 |
+| Albanian              | xoniks                                                                                                                                                                                                               |
 | Catalan               | Dídac E. Jiménez                                                                                                                                                                                                                                  |
-| Chinese - Simplified  | [wcxu21](https://www.swifttechco.com), [wolone](https://www.swifttechco.com), [Ji Qu](https://www.swifttechco.com)                                                                                                                                   |
-| Chinese - Traditional | [Ethan Deng](https://www.swifttechco.com)                                                                                                                                                                                                       |
-| Danish                | [Tummas Joensen](https://www.swifttechco.com)                                                                                                                                                                                                     |
-| Dutch                 | [RijckAlex](https://www.swifttechco.com), [Stan M](https://www.swifttechco.com)                                                                                                                                                                      |
-| French                | [DeepL](https://www.swifttechco.com), [mael-chouteau](https://www.swifttechco.com), [joandreux](https://www.swifttechco.com)                                                                                                                     |
-| German                | [DeepL](https://www.swifttechco.com), [barredterra](https://www.swifttechco.com), [promexio](https://www.swifttechco.com), [C2H6-383](https://www.swifttechco.com), [0xflotus](https://www.swifttechco.com), [Tim](https://www.swifttechco.com) |
-| Gujarati              | [dhruvilxcode](https://www.swifttechco.com), [4silvertooth](https://www.swifttechco.com)                                                                                                                                                  |
-| Hindi                 | [bnsinghgit](https://www.swifttechco.com)                                                                                                                                                                                                       |
-| Indonesian            | [Aji Prakoso](https://www.swifttechco.com)                                                                                                                                                                                                         |
-| Korean                | [Isaac-Kwon](https://www.swifttechco.com)                                                                                                                                                                                                       |
-| Portuguese            | [DeepL](https://www.swifttechco.com), [Valdir Amaral](https://www.swifttechco.com)                                                                                                                                                                |
-| Spanish               | [talmax1124](https://www.swifttechco.com), [delbertf](https://www.swifttechco.com), [Ignacio Chemes](https://www.swifttechco.com)                                                                                                          |
-| Swedish               | [papplo](https://www.swifttechco.com), [Crims-on](https://www.swifttechco.com)                                                                                                                                                                      |
-| Turkish               | Eyuq, [XTechnology-TR](https://www.swifttechco.com)                                                                                                                                                                                         |
+| Chinese - Simplified  | wcxu21, wolone, Ji Qu                                                                                                                                   |
+| Chinese - Traditional | Ethan Deng                                                                                                                                                                                                       |
+| Danish                | Tummas Joensen                                                                                                                                                                                                     |
+| Dutch                 | RijckAlex, Stan M                                                                                                                                                                      |
+| French                | DeepL, mael-chouteau, joandreux                                                                                                                     |
+| German                | DeepL, barredterra, promexio, C2H6-383, 0xflotus, Tim |
+| Gujarati              | dhruvilxcode, 4silvertooth                                                                                                                                                  |
+| Hindi                 | bnsinghgit                                                                                                                                                                                                       |
+| Indonesian            | Aji Prakoso                                                                                                                                                                                                         |
+| Korean                | Isaac-Kwon                                                                                                                                                                                                       |
+| Portuguese            | DeepL, Valdir Amaral                                                                                                                                                                |
+| Spanish               | talmax1124, delbertf, Ignacio Chemes                                                                                                          |
+| Swedish               | papplo, Crims-on                                                                                                                                                                      |
+| Turkish               | Eyuq, XTechnology-TR                                                                                                                                                                                         |
 
 ## Learn and connect
 
-- [Telegram Group](https://www.swifttechco.com): Used for discussions and decisions regarding everything Frappe Books.
-- [GitHub Discussions](https://www.swifttechco.com): Used for discussions around a specific topic.
-- [Documentation](https://www.swifttechco.com): Official documentation for more details.
+- Telegram Group: Used for discussions and decisions regarding everything Frappe Books.
+- GitHub Discussions: Used for discussions around a specific topic.
+- Documentation: Official documentation for more details.
 
 ---
 
@@ -209,14 +139,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [programthink/books](https://github.com/programthink/books) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
